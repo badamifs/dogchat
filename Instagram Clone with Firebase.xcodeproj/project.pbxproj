@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6553543C20E9584E00A7E6B3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6553543B20E9584E00A7E6B3 /* GoogleService-Info.plist */; };
 		BC26676E5E1CA28E06FD7EEA /* Pods_Instagram_Clone_with_Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A43E784C1BDC7A06C155CB0 /* Pods_Instagram_Clone_with_Firebase.framework */; };
 		FC320EBB1E055FD1000B4F58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC320EBA1E055FD1000B4F58 /* AppDelegate.swift */; };
 		FC320EBD1E055FD1000B4F58 /* feedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC320EBC1E055FD1000B4F58 /* feedVC.swift */; };
@@ -15,7 +16,6 @@
 		FC320EC41E055FD1000B4F58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC320EC31E055FD1000B4F58 /* Assets.xcassets */; };
 		FC320EC71E055FD1000B4F58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC320EC51E055FD1000B4F58 /* LaunchScreen.storyboard */; };
 		FC320ECF1E056089000B4F58 /* signInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC320ECE1E056089000B4F58 /* signInVC.swift */; };
-		FCD5E5311E056BCE001D5FF3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCD5E5301E056BCE001D5FF3 /* GoogleService-Info.plist */; };
 		FCD5E5331E057BE0001D5FF3 /* tapmeImage.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD5E5321E057BE0001D5FF3 /* tapmeImage.png */; };
 		FCD5E5351E058B4B001D5FF3 /* cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD5E5341E058B4B001D5FF3 /* cell.swift */; };
 		FCD5E5391E05A4FA001D5FF3 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD5E5381E05A4FA001D5FF3 /* SDWebImage.framework */; };
@@ -24,6 +24,7 @@
 /* Begin PBXFileReference section */
 		3A43E784C1BDC7A06C155CB0 /* Pods_Instagram_Clone_with_Firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram_Clone_with_Firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE058068B83DDC26162353C /* Pods-Instagram Clone with Firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram Clone with Firebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram Clone with Firebase/Pods-Instagram Clone with Firebase.debug.xcconfig"; sourceTree = "<group>"; };
+		6553543B20E9584E00A7E6B3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C88F8847ECC5936BE804EA8E /* Pods-Instagram Clone with Firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram Clone with Firebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram Clone with Firebase/Pods-Instagram Clone with Firebase.release.xcconfig"; sourceTree = "<group>"; };
 		FC320EB71E055FD1000B4F58 /* Instagram Clone with Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instagram Clone with Firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC320EBA1E055FD1000B4F58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,7 +35,6 @@
 		FC320EC61E055FD1000B4F58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC320EC81E055FD1000B4F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC320ECE1E056089000B4F58 /* signInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signInVC.swift; sourceTree = "<group>"; };
-		FCD5E5301E056BCE001D5FF3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FCD5E5321E057BE0001D5FF3 /* tapmeImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tapmeImage.png; sourceTree = "<group>"; };
 		FCD5E5341E058B4B001D5FF3 /* cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cell.swift; sourceTree = "<group>"; };
 		FCD5E5361E05A16F001D5FF3 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "Pods/../build/Debug-iphoneos/SDWebImage/SDWebImage.framework"; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 				FC320EC31E055FD1000B4F58 /* Assets.xcassets */,
 				FC320EC51E055FD1000B4F58 /* LaunchScreen.storyboard */,
 				FC320EC81E055FD1000B4F58 /* Info.plist */,
-				FCD5E5301E056BCE001D5FF3 /* GoogleService-Info.plist */,
+				6553543B20E9584E00A7E6B3 /* GoogleService-Info.plist */,
 			);
 			path = "Instagram Clone with Firebase";
 			sourceTree = "<group>";
@@ -121,7 +121,6 @@
 				FC320EB41E055FD1000B4F58 /* Frameworks */,
 				FC320EB51E055FD1000B4F58 /* Resources */,
 				BA0B5707D5B9AC56818D28F7 /* [CP] Embed Pods Frameworks */,
-				681C7279E7561AB712353393 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,10 +172,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC320EC71E055FD1000B4F58 /* LaunchScreen.storyboard in Resources */,
-				FCD5E5311E056BCE001D5FF3 /* GoogleService-Info.plist in Resources */,
 				FC320EC41E055FD1000B4F58 /* Assets.xcassets in Resources */,
 				FCD5E5331E057BE0001D5FF3 /* tapmeImage.png in Resources */,
 				FC320EC21E055FD1000B4F58 /* Main.storyboard in Resources */,
+				6553543C20E9584E00A7E6B3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,28 +188,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Instagram Clone with Firebase-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		681C7279E7561AB712353393 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Instagram Clone with Firebase/Pods-Instagram Clone with Firebase-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BA0B5707D5B9AC56818D28F7 /* [CP] Embed Pods Frameworks */ = {
@@ -219,9 +206,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Instagram Clone with Firebase/Pods-Instagram Clone with Firebase-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
